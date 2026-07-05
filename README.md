@@ -1,16 +1,31 @@
 # ChalkClicker
-A 1 Million CPS Autoclicker
 --------------------
-Requirements (install once):
-    pip install mouse keyboard pystray pillow
+A 1 Million CPS Autoclicker
 
-Run it (no need to build an exe while you're testing):
-    python chalk_autoclicker.py
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
-IMPORTANT: on Windows, the keyboard/mouse global-hook libraries usually
+--------------------
+
+## IMPORTANT: on Windows, the keyboard/mouse global-hook libraries usually
 need elevated permissions. Right-click Command Prompt/PowerShell and
 choose "Run as administrator" before running this script.
 
-Turn it into a Windows .exe later (run ON WINDOWS, as Administrator):
-    pip install pyinstaller
-    pyinstaller --onefile --noconsole --name chalks_autoclicker chalk_autoclicker.py
+--------------------
+
+## Requirements (install once):
+```python
+pip install mouse keyboard pystray pillow
+```
+
+## To Run it (no need to build an exe while you're testing):
+```python
+python chalk_autoclicker.py
+```
+
+## Turn it into a Windows .exe later (run ON WINDOWS, as Administrator):
+```python
+pip install pyinstaller
+pyinstaller --onefile --noconsole --name chalks_autoclicker chalk_autoclicker.py
+```
+
+
