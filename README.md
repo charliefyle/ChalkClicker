@@ -1,6 +1,6 @@
 # ChalkClicker 
 
-##### $\color{red}{\text{IMPORTANT:}}$ on Windows, the keyboard/mouse global-hook libraries usually need elevated permissions. Right-click Command Prompt/PowerShell and choose "Run as administrator" before running this script.
+$\color{red}{\LARGE\text{IMPORTANT:}}$ on Windows, the keyboard/mouse global-hook libraries usually need elevated permissions. Right-click Command Prompt/PowerShell and choose "Run as administrator" before running this script.
 
 ### Requirements (install once):
 ```python
